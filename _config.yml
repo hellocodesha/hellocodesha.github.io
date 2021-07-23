@@ -102,4 +102,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  deploy:
+  type: git 
+  repo: https://github.com/hellocodesha/hellocodesha.github.io.git#远端仓库地址
+  branch: master 
